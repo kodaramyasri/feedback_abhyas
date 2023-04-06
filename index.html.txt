@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .button{
+            border:None;
+            color: #2666dd;
+            font-size:20px;
+            padding: 8px 8px;
+            text-align: center;
+        }
+        .center {
+          text-align: center;
+          
+        }
+        body{
+            background-image: url('background_img.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 30px ;
+            font-size: 1.5em;
+        }
+
+</style>
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK Form</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Feedback Form</h1>
+    <form>
+        Name:<br><input type=text>
+        <br><br>
+        E-mail address:<br><input type=text>
+        <br><br>
+        Phone Number:<br><input type="text">
+        <br>
+        <p>Did You satisfy with our services?</p>
+        <input type="radio" name="5" id="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" name="5" id="no">
+        <label for="no">No</label>
+            <p>Rate the product(out of 10)</p>
+            <input type="radio" name="3" id="1">
+            <label for="2">1</label>
+            <input type="radio" name="3" id="2">
+            <label for="2">2</label>
+            <input type="radio" name="3" id="3">
+            <label for="2">3</label>
+            <input type="radio" name="3" id="4">
+            <label for="2">4</label>
+            <input type="radio" name="3" id="5">
+            <label for="2">5</label>
+            <input type="radio" name="3" id="6">
+            <label for="2">6</label>
+            <input type="radio" name="3" id="7">
+            <label for="2">7</label>
+            <input type="radio" name="3" id="8">
+            <label for="2">8</label>
+            <input type="radio" name="3" id="9">
+            <label for="2">9</label>
+            <input type="radio" name="3" id="10">
+            <label for="2">10</label>
+        <br>
+        <br>
+        Message
+        <br>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">message or suggestion</textarea>
+        
+        <br><br>
+        <button class="button">Submit</button>
+        <br>
+    </form>
+    </div>
+</body>
+</html>
